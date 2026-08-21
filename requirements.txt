@@ -1,0 +1,7 @@
+Flask==2.3.2
+pandas==2.0.3
+plotly==5.15.0
+matplotlib==3.7.2
+seaborn==0.12.2
+requests==2.31.0
+gunicorn==20.1.0

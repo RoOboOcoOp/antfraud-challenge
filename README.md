@@ -48,7 +48,7 @@ docker build -t antifraud .
 Start the container and map the container port 5000 to your local machine's port 5000:
 
 ```bash
-docker run -p 5000:5000 antfraud
+docker run -p 5000:5000 antifraud
 
 ```
 

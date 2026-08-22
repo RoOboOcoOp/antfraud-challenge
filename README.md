@@ -149,11 +149,11 @@ AMOUNT_WINDOW_SECONDS = 86400          # 24 hours
 
 ## Technologies Used
 
-1. Python 3.9;
-2. Flask 2.3.2 (Web framework for API);
-3. Pandas 2.0.3 (Data analysis);
-4. Plotly 5.15.0 (Interactive dashboards);
-5. Matplotlib 3.7.2 & Seaborn 0.12.2 (Static visualizations);
-6. Requests 2.31.0 (HTTP client for testing);
-7. Gunicorn 20.1.0 (Production WSGI server);
-8. Docker (Containerization);
+1. Python 3.9
+2. Flask 2.3.2 (Web framework for API)
+3. Pandas 2.0.3 (Data analysis)
+4. Plotly 5.15.0 (Interactive dashboards)
+5. Matplotlib 3.7.2 & Seaborn 0.12.2 (Static visualizations)
+6. Requests 2.31.0 (HTTP client for testing)
+7. Gunicorn 20.1.0 (Production WSGI server)
+8. Docker (Containerization)

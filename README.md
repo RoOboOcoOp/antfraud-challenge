@@ -13,7 +13,7 @@ It includes:
 
 | File | Description |
 |------|-------------|
-| `antifraud.py` | The Flask‑based anti‑fraud service with all required endpoints. |
+| `antfraud.py` | The Flask‑based anti‑fraud service with all required endpoints. |
 | `test_client.py` | Script that reads the CSV, sends each transaction to the anti‑fraud service in chronological order, and prints summary statistics. |
 | `process_evaluation.py` | Python script that loads the dataset, performs feature engineering, and generates static and interactive visualisations (dashboard). |
 | `transactional-sample.csv` | The provided dataset (required to run the tests). |
@@ -40,7 +40,7 @@ This is the recommended way to run the application. The `Dockerfile` sets up the
 Open your terminal in the root directory of the project (where the `Dockerfile` is located) and run:
 
 ```bash
-docker build -t anti-fraud-service .
+docker build -t antfraud-service .
 ```
 
 ### Step 2: Run the Docker Container
@@ -48,7 +48,7 @@ docker build -t anti-fraud-service .
 Start the container and map the container port 5000 to your local machine's port 5000:
 
 ```bash
-docker run -p 5000:5000 anti-fraud-service
+docker run -p 5000:5000 antfraud-service
 
 ```
 
@@ -138,7 +138,7 @@ The anti-fraud service uses a combination of rule-based logic to make decisions:
 
 ## Customizing the Configuration
 
-You can easily adjust the thresholds and time windows in the antifraud.py file:
+You can easily adjust the thresholds and time windows in the antfraud.py file:
 ```bash
 MAX_TRANSACTIONS_PER_WINDOW = 5        # number of tx allowed
 WINDOW_SECONDS = 300                   # 5 minutes
